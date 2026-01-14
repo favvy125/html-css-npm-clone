@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Npm clone page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+ <header>
+   <div class="border-bottom">
+     <div class="container-fluid d-flex justify-content-between align-items-center py-1">
+       <div class="d-flex align-items-center gap-2"> 
+       <img src="./image.png/black-heart.png" alt="black Heart" width="14"  class="d-inline-block align-text-top">
+      <span class="small"> Nifty Penguin Magic</span>
+       </div>
+    
+      <ul class="nav">
+       <li class="nav-item"><a class="nav-link text-dark px-2" href="#"> npm Enterprise </a></li>
+       <li class="nav-item"><a class="nav-link text-dark px-2" href="#"> Products </a></li> 
+       <li class="nav-item"><a class="nav-link text-dark px-2" href="#"> Solutions </a></li> 
+       <li class="nav-item"><a class="nav-link text-dark px-2" href="#"> Resources </a></li>  
+       <li class="nav-item"><a class="nav-link text-dark px-2" href="#"> Docs </a></li>
+       <li class="nav-item"><a class="nav-link text-dark px-2" href="#"> Support </a></li>
+      </ul>
+       </div> 
+    </div>
+  
+  <!--Main Row Header-->
+ <nav class="navbar bg-white">
+<div class="container-fluid">
+  <div class=" d-flex align-items-center flex-nowrap w-100 px-4">
+
+    <!--npm logo-->
+    <a class="navbar-brand me-3" href="#"> <img src="./image.png/npm-logo (1).png" alt="npm logo" height="30"/></a>
+
+    <!--Search-->
+ <form class="flex-grow-1 search-form">
+    <div class="input-group">
+    <span class="input-group-text bg-white border-end-0">
+      <img src="./image.png/magnifying-glass.png" width="16">
+    </span>
+
+    <input
+      type="search"
+      class="form-control border-start-0"
+      placeholder="Search packages"
+    />
+   </div>
+ </form>
+        
+
+    <div class="d-flex align-items-center gap-3">
+        <button class="btn btn-danger" type="submit">Search</button>
+        <a href="/signup" class="btn btn-outline-dark">join</a>
+        <a href="/signup" class="btn btn-outline-secondary">Log In</a>
+    </div>
+    </div>
+</div>
+</nav>
+</header>
+
+<section class="hero">
+   <div class="container text-center">
+    <h1 class="display-4 fw-bold mb-4">Build amazing things</h1>
+    <p class="text-muted mt-3 enterprise-text lead mb-4"> Essential JavaScript development tools that help you go to market faster and build powerful applications using
+       modern open source code.
+    </p>
+
+    <!--Button-->
+
+    <div class="d-flex justify-content-center gap-3 mt-4 hero-btn">
+        <a href="/signup" class="btn btn-danger see-plans-btn">See plans</a>
+        <a href="/signup" class="btn btn-secondary btn-lg px-4 join-for-free-btn">Join for free</a>
+    </div>
+   </div>
+</section>
+
+<section class="open-source-section py-5">
+   <div class="container text-center">
+    <!--hexagon image section-->
+    <img src="./image.png/triangle-hexagon.svg" alt="triangle hexagon image" class="img-fluid mb-4 triangle-hexagon-img"/>
+
+    <!--Heading-->
+    <h2 class="fw-bold display-6 mt-4 mb-3"><span class="highlight-title"> Bring the best of open source to your company</span></h2>
+    <p class="text-muted mt-3 enterprise-text">npm is the tool used by
+      over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it.
+      Create an Org and get more out of the tools your team already knows and loves.</p>
+
+   </div>
+</section>
+
+<section class="npm-features py-5">
+    <div class="container">
+        <div class="row text-center gy-4">
+
+            <div class="col-12 col-md-3">
+                <img src="./image.png/zero-configuration.svg" class="mb-3 feature-icon" alt="zero configuration icon"/>
+                <h6 class="feature-title">zero configuration</h6>
+                <p class="feature-text">Create an org, add
+                your team, and start collaborating. Nothing to configure, set up, or manage.</p>
+            </div>
+
+            <div class="col-12 col-md-3">
+                <img src="./image.png/team-management.svg" class="mb-3 feature-icon" alt="Team management icon"/>
+                <h6 class="feature-title">Team management</h6>
+                <p class="feature-text"> Control who has access to
+                 what modules within your team namespace using straightforward team management capabilities</p>
+            </div>
+
+
+            <div class="col-12 col-md-3">
+                <img src="./image.png/familiar-features.svg" class="mb-3 feature-icon" alt="familiar features icon"/>
+                <h6 class="feature-title">Familiar features</h6>
+                <p class="feature-text"> npm Orgs
+                has 100% parity with all the public npm registry features your developers already use.</p>
+            </div>
+
+
+             <div class="col-12 col-md-3">
+                <img src="./image.png/npm-audit.svg" class="mb-3 feature-icon" alt="npm audit icon"/>
+                <h6 class="feature-title"> npm audit </h6>
+                <p class="feature-text">Enjoy the security
+                auditing features built into the npm client, a zero-friction way to make open source software safer. </p>
+            </div>
+
+
+
+
+        </div>
+
+        
+
+    </div>
+
+</section>
+
+<section class="cta py-5 text-center">
+    <div class="container">
+        <button class="btn btn-dark btn-lg px-5 create-org-btn">
+         Create an org
+        </button>
+    </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
